@@ -24,8 +24,26 @@ CKEDITOR.dialog.add('mergefieldDialog', function(editor) {
                 type: 'select',
                 label: 'Expression',
                 items: [
-                    ['Client First Name', '${Client.FirstName}'],
-                    ['Client Last Name', '${Client.LastName}']
+                    ['First Name', '${data.FirstName}'],
+                    ['Last Name', '${data.LastName}'],
+                    ['Full Name', '${data.FulName}'],
+                    ['Title', '${data.Title}'],
+                    ['Email Address', '${data.Email}'],
+                    ['Adviser - First Name', '${data.Adviser.FirstName}'],
+                    ['Adviser - Last Name', '${data.Adviser.LastName}'],
+                    ['Adviser - Full Name', '${data.Adviser.FulName}'],
+                    ['Adviser - Title', '${data.Adviser.Title}'],
+                    ['Adviser - Email Address', '${data.Adviser.Email}'],
+                    ['Firm - Name', '${data.Firm.Name}'],
+                    ['Firm - Address Line 1', '${data.Firm.AddressLine1}'],
+                    ['Firm - Address Line 2', '${data.Firm.AddressLine2}'],
+                    ['Firm - Address Line 3', '${data.Firm.AddressLine3}'],
+                    ['Firm - Address Line 4', '${data.Firm.AddressLine4}'],
+                    ['Firm - City', '${data.Firm.City}'],
+                    ['Firm - County', '${data.Firm.County}'],
+                    ['Firm - PostCode', '${data.Firm.PostCode}'],
+                    ['Firm - Email Address', '${data.Firm.Email}'],
+                    ['Date', '${data.Date}']
                 ],
                 setup: function(widget) {
                     this.setValue(widget.data.name);
