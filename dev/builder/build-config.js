@@ -46,6 +46,7 @@ var CKBUILDER_CONFIG = {
 		image: 1,
 		link: 1,
 		magicline: 1,
+		mergefield: 1,
 		maximize: 1,
 		pastefromword: 1,
 		pastetext: 1,
@@ -63,5 +64,6 @@ var CKBUILDER_CONFIG = {
 		undo: 1,
 		wsc: 1,
 		wysiwygarea: 1
-	}
+	},
+	languages : { 'en' : 1 }
 };
