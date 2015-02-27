@@ -981,19 +981,7 @@
 								}
 							}
 						}
-					},
-					{
-						type: 'button',
-						id: 'browse',
-						filebrowser: {
-							action: 'Browse',
-							target: 'Link:txtUrl',
-							url: editor.config.filebrowserImageBrowseLinkUrl
-						},
-						style: 'float:right',
-						hidden: true,
-						label: editor.lang.common.browseServer
-					},
+					},					
 					{
 						id: 'cmbTarget',
 						type: 'select',

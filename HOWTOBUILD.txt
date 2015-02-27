@@ -1,0 +1,4 @@
+--BUILD UNMINIFIED
+./dev/builder/build.sh -s --leave-js-unminified
+--BUILD MINIFIED
+./dev/builder/build.sh -s

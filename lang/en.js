@@ -28,7 +28,7 @@ CKEDITOR.lang[ 'en' ] = {
 		// of reading non-English words. So be careful while translating it.
 		editorHelp: 'Press ALT 0 for help',
 
-		browseServer: 'Browse Server',
+		browseServer: 'Browse Library',
 		url: 'URL',
 		protocol: 'Protocol',
 		upload: 'Upload',
