@@ -59,6 +59,7 @@ var CKBUILDER_CONFIG = {
 		showborders: 1,
 		showblocks: 1,
 		sourcearea: 1,
+		sourcedialog: 1,
 		specialchar: 1,
 		tab: 1,
 		table: 1,
