@@ -29,7 +29,6 @@ var CKBUILDER_CONFIG = {
 	plugins: {
 		a11yhelp: 1,
 		basicstyles: 1,
-		blockquote: 1,
 		clipboard: 1,
 		colorbutton: 1,
 		colordialog: 1,
