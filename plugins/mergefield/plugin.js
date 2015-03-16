@@ -59,7 +59,7 @@
 
         // This is the conversion from the raw HTML into the version displayed in the CKEditor
         afterInit: function(editor) {
-            var mergefieldRegex = /\${[^}]+}/g;
+            var mergefieldRegex = /\*\|[^|]+\|\*/g;
 
             editor.dataProcessor.dataFilter.addRules({
                 text: function(text, node) {
