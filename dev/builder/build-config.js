@@ -56,6 +56,7 @@ var CKBUILDER_CONFIG = {
 		removeformat: 1,
 		resize: 1,
 		showborders: 1,
+		sharedspace: 1,
 		showblocks: 1,
 		sourcearea: 1,
 		sourcedialog: 1,
